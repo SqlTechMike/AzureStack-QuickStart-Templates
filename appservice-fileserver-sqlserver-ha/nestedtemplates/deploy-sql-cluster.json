@@ -1,5 +1,5 @@
 {
-  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "apiProfile": "2018-03-01-hybrid",
   "contentVersion": "1.0.0.0",
   "parameters": {
@@ -87,7 +87,7 @@
     },
     "imageOffer": {
       "type": "string",
-      "defaultValue": "SQL2016SP2-WS2016"
+      "defaultValue": "SQL2019-WS2019"
     },
     "imageSKU": {
       "type": "string",
